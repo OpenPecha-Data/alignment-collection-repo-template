@@ -1,10 +1,13 @@
+<!-- You only need to update the folowing sections: Collection title, Content summary, Detailed content summary, Ackowledgments -->
 
-# *Alignment collection name*
+<!-- Replace the title and description of the repository -->
 
-<!-- Replace the title of the repository -->
-*Short description of the collections*.
+# Collection title
+
+Short description of the collections.
 
 ## Content summary
+
 <!-- 1. Update the number of segments and files. 2. Add or delete languages as needed. 3. Update the number of segments for each language. -->
 
 - **123** Tibetan segments 
@@ -19,6 +22,51 @@
 - Included texts: See the collection's [catalog](/text-pairs-catalog)
 - Sources: [Source 1](link), [Source 2](link), [Source 3](link), ...
 
+## Table of contents
+<p align="center">
+  <a href="#detailed-content-description">Detailed content description</a> •
+  <a href="#file-structure">File structure</a> •
+  <a href="#data-preparation">Data preparation</a> •
+  <a href="#quality-assurance">Quality assurance</a> •
+  <a href="#questions-about-this-collection">Questions?</a> •
+  <a href="#acknowledgments">Acknowledgments</a> •
+  <a href="#terms-of-use">Terms of use</a>
+</p>
+
+## Detailed content description
+
+<!-- Update all data in this section. Add or remove sections to match the number of sources. -->
+
+### Source 1
+| Source URL: | https:source1.com/ |
+| --- | --- |
+|Pairs: | 123 | 
+|Files: | 123 |
+|Accessed on: |  |
+|Crawler: | [name](link) |
+|Parser: | [name](link) |
+|Layers: | **Base** + `Segments` |
+|Included texts: |[See text pairs catalog](/text-pairs-catalog.csv)|
+
+| Languages: |   bo-en   |   bo-es  |   bo-fr  |   bo-de  |  bo-it |  bo-nl |   bo-zh  |  bo-pt |
+|:------------:|:------:|:-----:|:-----:|:-----:|:---:|:---:|:-----:|:---:|
+| Segments:     | 1 | 2 | 3 | 4 |  5| 6 | 7 | 8 |
+
+### Source 2
+| Source URL: | https:source1.com/ |
+| --- | --- |
+|Pairs: | 123 | 
+|Files: | 123 |
+|Accessed on: |  |
+|Crawler: | [name](link) |
+|Parser: | [name](link) |
+|Layers: | **Base** + `Segments` |
+|Included texts: |[See text pairs catalog](/text-pairs-catalog.csv)|
+
+| Languages: |   bo-en   |   bo-es  |   bo-fr  |   bo-de  |  bo-it |  bo-nl |   bo-zh  |  bo-pt |
+|:------------:|:------:|:-----:|:-----:|:-----:|:---:|:---:|:-----:|:---:|
+| Segments:     | 1 | 2 | 3 | 4 |  5| 6 | 7 | 8 |
+
 ## File structure
 
 This collection presents the same data in two views: text pairs and TMs.
@@ -30,7 +78,7 @@ This collection presents the same data in two views: text pairs and TMs.
 [Plain text pairs](https://github.com/OpenPecha-Data/C0A2DD042/tree/main/text-pairs) in .txt format ([see detailed catalog](https://github.com/OpenPecha-Data/C0A2DD042/blob/main/text-pairs-catalog.csv)).
 
 <details >
-<summary>More</summary>
+<summary>Detailed description</summary>
 
 Text pairs consist of matching sets of `.txt` files. They include a file containing a Tibetan text with one chunk of text per line and one or more `.txt` files of translations of the text into other languages. Translation files are also split into lines to correspond to the line breaks in the Tibetan file.
 
@@ -91,44 +139,17 @@ View 2 is intended for developers who want to train a translation model.
 
 This data can be fed into machine translation training pipelines such as using this and that.
 
+<!--
 
-
-## Detailed content description
-
-<!-- Update all info. Add or remove sections to match the number of sources. -->
-
-### Source 1
-| Source URL: | https:source1.com/ |
-| --- | --- |
-|Pairs: | 123 | 
-|Files: | 123 |
-|Accessed on: |  |
-|Crawler: | [name](link) |
-|Parser: | [name](link) |
-|Layers: | **Base** + `Segments` |
-|Included texts: |[See text pairs catalog](/text-pairs-catalog.csv)|
-
-| Languages: |   bo-en   |   bo-es  |   bo-fr  |   bo-de  |  bo-it |  bo-nl |   bo-zh  |  bo-pt |
-|:------------:|:------:|:-----:|:-----:|:-----:|:---:|:---:|:-----:|:---:|
-| Segments:     |  |  |  |  |  |  |  |  |
-
-### Source 2
-| Source URL: | https:source1.com/ |
-| --- | --- |
-|Pairs: | 123 | 
-|Files: | 123 |
-|Accessed on: |  |
-|Crawler: | [name](link) |
-|Parser: | [name](link) |
-|Layers: | **Base** + `Segments` |
-|Included texts: |[See text pairs catalog](/text-pairs-catalog.csv)|
-
-| Languages: |   bo-en   |   bo-es  |   bo-fr  |   bo-de  |  bo-it |  bo-nl |   bo-zh  |  bo-pt |
-|:------------:|:------:|:-----:|:-----:|:-----:|:---:|:---:|:-----:|:---:|
-| Segments:     |  |  |  |  |  |  |  |  |
+## Data preparation
 
 
 
+## Quality assurance
+
+
+
+-->
 
 ## Questions about this collection?
 * Email us at openpecha[at]gmail.com.
@@ -137,9 +158,9 @@ This data can be fed into machine translation training pipelines such as using t
 
 ## Acknowledgments
 
-Thanks to the following organizations for providing data for this collection:
+<!-- Delete organizations that are not part of this collection -->
 
-<!-- Delete organizations that are part of this collection -->
+Thanks to the following organizations for providing data for this collection:
 
 ![BDRC logo](https://user-images.githubusercontent.com/51434640/194739598-8a630a40-b83e-46cd-9f52-3f746db9864f.png)
 
